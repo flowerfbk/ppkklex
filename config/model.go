@@ -8,11 +8,12 @@ var ModelMap = map[string]string{
 	"o4-mini":                 "o4mini",
 	"gpt-4o":                  "gpt4o",
 	"gemini-2.5-pro-06-05":    "gemini2flash",
-	"grok-3-beta":             "grok",
+	"grok4":                   "grok4",
 	"gpt-4.1":                 "gpt41",
 	// "claude-4.0-opus":         "claude40opus",
-	// "claude-4.0-opus-think":   "claude40opusthinking",
-	"o3": "o3",
+	"claude-4.0-opus-think": "claude40opusthinking",
+	"o3":                    "o3",
+	"o3-pro":                "o3pro",
 }
 
 // Get returns the value for the given key from the ModelMap.

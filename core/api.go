@@ -350,7 +350,7 @@ func (c *Client) HandleResponse(body io.ReadCloser, stream bool, gc *gin.Context
 			if block.MarkdownBlock != nil && len(block.MarkdownBlock.Chunks) > 0 {
 				res_text := ""
 				if inThinking {
-					res_text += "</think>\n"
+					res_text += "</think>\n\n"
 					inThinking = false
 					thinkShown = true
 				}
